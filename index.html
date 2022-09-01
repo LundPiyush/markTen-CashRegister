@@ -12,7 +12,7 @@
 
 <body>
     <h1>Cash Register Manager</h1>
-    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+    <p style="font-weight:bold;">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
     <div id="container-bill">
         <input type="number" id="input-billamount" placeholder="Enter the Bill Amount">
         <br>
@@ -27,9 +27,10 @@
     <p id="show-error-message">
 
     </p>
-    <div id="container-table"> 
+    <div id="container-table" style="display:none"> 
     <table>
-        <caption></caption>
+        <caption>Return Change</caption>
+        <tbody>
         <tr>
             <th>No. of Notes</th>
             <td class="no-of-notes"></td>
@@ -51,7 +52,7 @@
             <td>5</td>
             <td>1</td>
         </tr>
-
+    </tbody>
     </table>
     
     </div>

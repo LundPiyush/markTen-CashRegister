@@ -30,7 +30,7 @@ function showErrorMessage(message){
 }
 
 function calculateNotes(billAmountValue,cashGivenValue){
-    errorMessage.style.display ="block";
+    errorMessage.style.display ="none";
     document.querySelector("#container-table").style.display= "block"
     var amountToBeReturned = cashGivenValue - billAmountValue;
     for(let i =0 ; i < notes.length; i++){

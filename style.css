@@ -1,0 +1,45 @@
+:root{
+    --primary-color:#D3D3D3;
+    --secondary-color:#587EDE;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+button{
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem auto;    
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#input-billamount,#input-cashgiven{
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    height: 2rem;
+    width:10rem;
+    border: 1px black solid;
+}
+
+table{
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+table caption{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+th,td {
+    border: 2px solid black;
+    width: 0%;
+    padding: 0.4rem;
+  }
